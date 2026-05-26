@@ -105,7 +105,7 @@ risklens/
 ├── notebooks/
 │   └── 01_exploration.ipynb
 │
-├── src/
+├── risklens/
 │   ├── __init__.py
 │   │
 │   ├── data/
