@@ -92,7 +92,7 @@ Simulate adverse market scenarios such as:
 ---
 
 ## Project Structure
-
+```
 risklens/
 │
 ├── README.md
@@ -137,6 +137,7 @@ risklens/
     ├── test_returns.py
     ├── test_volatility.py
     └── test_var.py
+```
 
 ### Architecture Overview
 
