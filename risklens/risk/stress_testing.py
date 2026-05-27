@@ -4,6 +4,11 @@ import pandas as pd
 
 def stress_test_percentage_shock(current_value: float, shock: float)->dict:
     """
+    Stress testing is an important risk management tool for banks and supervisors.
+    It helps identify potential vulnerabilities and ensures that banks have sufficient capital
+    to withstand severe economic shocks.
+
+    usage:
     Quick sanity check
     instant stress testing
 
@@ -26,8 +31,14 @@ def stress_test_percentage_shock(current_value: float, shock: float)->dict:
         "loss": loss,
     }
 
+
 def historical_stress_test(current_value: float, returns:pd.Series)->dict:
     """
+    Historical stress testing uses changes in drivers of market risk such as equity prices,
+    interest rates and real estate prices during historically stressed periods applied to
+    the current portfolio to evaluate the impact of these events on the value of the fund.
+
+    usage:
     realistic stress
     backtest risk
 
@@ -55,8 +66,15 @@ def historical_stress_test(current_value: float, returns:pd.Series)->dict:
         "loss": loss,
     }
 
+
 def scenario_stress_test(current_value: float, scenario_name:str, shock:float)->dict:
     """
+    risk management simulations used, primarily in banking,
+    to assess how portfolios or institutions perform under severe,
+    hypothetical adverse conditions
+    (e.g., severe recession, high inflation, or market crashes).
+
+    usage:
     institutional-style scenarios
     risk reporting
 
@@ -74,6 +92,7 @@ def scenario_stress_test(current_value: float, scenario_name:str, shock:float)->
         **result,
     }
 
+
 def monte_carlo_stress_test(
         current_value: float,
         returns:pd.Series,
@@ -82,6 +101,12 @@ def monte_carlo_stress_test(
         random_seed:int | None=None,
 )->dict:
     """
+    A Monte Carlo stress test is a computer simulation used to test the durability of
+    a financial plan or trading strategy by running thousands of random scenarios [the source text].
+    Instead of relying on a single, static forecast, it injects random market shocks to see
+    how likely your plan is to survive bad economic conditions [the source text].
+
+    usage:
     quant-grade risk
     institutional modeling
 
