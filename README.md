@@ -1,10 +1,6 @@
 
-<img src="images/risklens_icon.png" alt="Example" width="50"/>
-
-# RiskLens  
-### Financial Risk Analytics & Portfolio Intelligence
 <div style="display: flex; align-items: center;">
-  <img src="images/risklens_icon.png" alt="RiskLens icon" width="80" style="margin-right: 10px;">
+  <img src="images/risklens_icon.png" alt="RiskLens icon" width="60" style="margin-right: 10px;">
   <div>
     <h1 style="margin: 0;">RiskLens</h1>
     <h3 style="margin: 0; font-weight: normal;">Financial Risk Analytics &amp; Portfolio Intelligence</h3>
