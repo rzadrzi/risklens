@@ -1,5 +1,5 @@
 
-<img src="images/risklens_icon.png" alt="Example" width="100"/>
+<img src="images/risklens_icon.png" alt="Example" width="50"/>
 
 # RiskLens  
 ### Financial Risk Analytics & Portfolio Intelligence
