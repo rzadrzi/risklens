@@ -1,3 +1,6 @@
+
+<img src="images/risklens_icon.png" alt="Example" width="100"/>
+
 # RiskLens  
 ### Financial Risk Analytics & Portfolio Intelligence
 
