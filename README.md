@@ -3,7 +3,13 @@
 
 # RiskLens  
 ### Financial Risk Analytics & Portfolio Intelligence
-
+<div style="display: flex; align-items: center;">
+  <img src="images/risklens_icon.png" alt="RiskLens icon" width="80" style="margin-right: 10px;">
+  <div>
+    <h1 style="margin: 0;">RiskLens</h1>
+    <h3 style="margin: 0; font-weight: normal;">Financial Risk Analytics &amp; Portfolio Intelligence</h3>
+  </div>
+</div>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/Finance-Risk Analytics-green?style=for-the-badge" />
